@@ -11,18 +11,18 @@ function App() {
     >
       <HeaderBar />
       <div className="main-page w-full h-full flex items-center">
-        <section className="flex flex-col items-start justify-center sm:pl-10 md:pl-24">
-          <h1 className="text-2xl font-semibold">Hi,</h1>
-          <h1 className="text-2xl font-semibold flex">
+        <section className="flex flex-col items-start justify-center pl-10 pr-10 md:pr-0 md:pl-24">
+          <h1 className="md:text-2xl font-semibold">Hi,</h1>
+          <h1 className="md:text-2xl font-semibold flex">
             I'm
-            <h1 className="text-3xl font-semibold pl-3 text-red-500">
+            <h1 className="md:text-3xl font-semibold pl-3 text-red-500">
               Praveen
             </h1>
           </h1>
-          <h1 className="text-4xl font-bold transform mb-3 w-fit">
+          <h1 className="text-lg md:text-4xl font-bold transform mb-3 w-fit">
             React Js Developer
           </h1>
-          <p className="text-sm font-semibold w-2/4 mb-10 w-full">
+          <p className="text-sm font-semibold mb-10 w-full">
             Passionate and creative website designer skilled in HTML, CSS and
             JavaScript. Expert in crafting visually appealing, responsive
             websites with a focus on user experience. Dedicated to staying
@@ -37,7 +37,7 @@ function App() {
             CV Download
           </a>
         </section>
-        <section className="flex flex-col items-center justify-center">
+        <section className="flex-col items-center justify-center hidden md:flex">
           <img
             className="w-3/5 img-shape bg-transparent"
             src={Mainimg}
