@@ -22,10 +22,17 @@
   .input-wrapper label {
     left: 30% !important;
   }
+  .transform {
+    border-right-width: 4px !important;
+  }
+  .padding-express{
+    padding-left: 520px;
+    padding-right: 520px;
+  }
 }
 .transform {
   overflow: hidden;
-  border-right: 4px solid white;
+  border-right: 2px solid white;
   white-space: nowrap;
   letter-spacing: 0.15em;
   animation: typing 4s steps(40, end), blink-caret 0.75s step-end infinite;

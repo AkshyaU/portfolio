@@ -5,11 +5,11 @@ import Close from "../Images/cancel.png";
 export default function HeaderBar() {
   const [menu, setMenu] = useState(false);
   return (
-    <div className="top-menu min-h-16 w-full flex items-center justify-between sticky top-0 absolute z-10 bg-black">
-      <section className="flex items-center justify-center w-1/4">
+    <div className="top-menu md:min-h-16 min-h-14 w-full flex items-center justify-between sticky top-0 absolute z-10 bg-black">
+      <section className="flex items-center justify-center w-24 md:w-60">
         <a className="flex items-center justify-center" href="/" target="_self">
-          <img className="w-10 h-2/4 mr-2" src={Devicon} alt="Icon"></img>
-          <h3 className="w-10 h-2/4 text-center">Developer</h3>
+          <img className="w-6 md:w-10 h-2/4 mr-2" src={Devicon} alt="Icon"></img>
+          <h3 className="w-10 h-2/4 text-center text-sm md:text-base">Developer</h3>
         </a>
       </section>
       <section className="w-2/5 flex items-center justify-evenly md:flex hidden">

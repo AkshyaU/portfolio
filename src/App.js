@@ -3,6 +3,7 @@ import Mainimg from "./Images/4707122.jpg";
 import HeaderBar from "./Components/Header.jsx";
 import Contact from "./Components/Contact.jsx";
 import Skills from "./Components/Skills.jsx";
+import About from "./Components/About.jsx";
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
     >
       <HeaderBar />
       <div className="main-page w-full h-full flex items-center">
-        <section className="flex flex-col items-start justify-center pl-10 pr-10 md:pr-0 md:pl-24">
+        <section className="flex flex-col items-start justify-center pl-10 pr-10 md:pr-0 md:pl-24 w-full">
           <h1 className="md:text-2xl font-semibold">Hi,</h1>
           <h1 className="md:text-2xl font-semibold flex">
             I'm
@@ -20,9 +21,9 @@ function App() {
             </h1>
           </h1>
           <h1 className="text-lg md:text-4xl font-bold transform mb-3 w-fit">
-            React Js Developer
+           MERN Stack Developer
           </h1>
-          <p className="text-sm font-semibold mb-10 w-full">
+          <p className="text-xs md:text-sm md:font-semibold mb-10 w-full">
             Passionate and creative website designer skilled in HTML, CSS and
             JavaScript. Expert in crafting visually appealing, responsive
             websites with a focus on user experience. Dedicated to staying
@@ -30,7 +31,7 @@ function App() {
             delivering high-quality, innovative web solutions.
           </p>
           <a
-            className="text-base font-semibold text-red-500 border-2 border-solid border-white rounded-md bg-transparent	pl-3 pr-3 download-show"
+            className="text-sm font-bold text-red-500 border-2 border-solid border-white rounded-md bg-transparent	pl-3 pr-3 download-show"
             href={"/"}
             download
           >
@@ -45,6 +46,7 @@ function App() {
           ></img>
         </section>
       </div>
+      <About/>
       <Skills/>
       <Contact />
     </div>
