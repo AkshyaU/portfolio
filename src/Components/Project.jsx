@@ -15,10 +15,10 @@ export default function Project() {
       <div className="flex items-center justify-evenly">
         <div className="md:w-3/5 w-4/5 text-sm p-5 md:ml-10 mt-5 mb-5 flex items-center bg-gray-950 rounded-3xl ease-in duration-300 hover:scale-95 projects">
           <div>
-            <h1 className="text-lg text-end text-lg font-semibold">
+            <h1 className="md:text-lg text-end font-semibold">
               SelDirect Application
             </h1>
-            <p className="text-justify">
+            <p className="text-justify text-xs md:text-base">
               Designed and developed an affiliate program feature for an
               e-commerce application, enabling customers to become affiliates
               and earn commissions and rewards based on orders.
@@ -40,10 +40,10 @@ export default function Project() {
             ></img>
           </div>
           <div>
-            <h1 className="text-lg text-lg font-semibold">
+            <h1 className="md:text-lg font-semibold">
               FreeShippingBar Application
             </h1>
-            <p className="text-justify">
+            <p className="text-justify text-xs md:text-base">
               Collaborated with team members to develop and deploy a custom
               shipping bar application for e-commerce platforms, allowing
               customers to customize shipping preferences and encourage larger
@@ -55,10 +55,10 @@ export default function Project() {
       <div className="flex items-center justify-evenly">
         <div className="md:w-3/5 w-4/5 text-sm p-5 md:ml-10 mt-5 mb-5 flex items-center bg-gray-950 rounded-3xl ease-in duration-300 hover:scale-95 projects">
           <div>
-            <h1 className="text-lg text-end text-lg font-semibold">
+            <h1 className="md:text-lg text-end font-semibold">
               Register/Login Website
             </h1>
-            <p className="text-justify">
+            <p className="text-justify text-xs md:text-base">
               To create a login and register page using React and Firebase
               Authentication, first set up Firebase in your project. Create an
               authentication context to manage state globally. Develop login and
@@ -99,7 +99,7 @@ export default function Project() {
                   ></path>{" "}
                 </g>
               </svg>
-              <p className="pl-1">
+              <p className="pl-1 text-xs md:text-base">
                 https://login-register-project-chi.vercel.app/
               </p>
             </a>
@@ -127,10 +127,10 @@ export default function Project() {
             ></img>
           </div>
           <div>
-            <h1 className="text-lg text-lg font-semibold">
+            <h1 className="md:text-lg font-semibold">
               Mobile View Design
             </h1>
-            <p className="text-justify">
+            <p className="text-justify text-xs md:text-base">
               When designing for mobile, focus on responsive layouts with clear,
               touch-friendly forms and buttons. Use CSS for flexible styling and
               ensure seamless integration of Firebase authentication for secure
@@ -168,7 +168,7 @@ export default function Project() {
                   ></path>{" "}
                 </g>
               </svg>
-              <p className="pl-1">https://mobile-view-project.vercel.app/ </p>
+              <p className="pl-1 text-xs md:text-base">https://mobile-view-project.vercel.app/ </p>
             </a>{" "}
           </div>
         </div>

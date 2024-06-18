@@ -11,7 +11,7 @@ export default function About() {
       </div>
       <div className="flex items-center justify-evenly mt-10 mb-10">
         <div className="w-1/5 flex items-center justify-end"><img src={Mainimg} alt="profile" width={200} className="rounded-2xl border-2 border-solid border-gray-500"></img></div>
-        <div className="w-3/5 text-sm text-justify">Motivated and detail-oriented FullStack developer with hands-on 1 year experience in JavaScript, React.js, Node.js, Express.js, and Firebase. Demonstrated ability to develop and deploy custom web applications, with a focus on enhancing user experience and driving business objectives. Strong problem-solving skills and a collaborative mindset, with a passion for continuous learning and professional growth.</div>
+        <div className="w-3/5 text-xs md:text-sm text-justify">Motivated and detail-oriented FullStack developer with hands-on 1 year experience in JavaScript, React.js, Node.js, Express.js, and Firebase. Demonstrated ability to develop and deploy custom web applications, with a focus on enhancing user experience and driving business objectives. Strong problem-solving skills and a collaborative mindset, with a passion for continuous learning and professional growth.</div>
       </div>
     </section>
   );

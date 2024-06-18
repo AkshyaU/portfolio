@@ -12,7 +12,7 @@ export default function HeaderBar() {
           <h3 className="w-10 h-2/4 text-center text-sm md:text-base">Portfolio</h3>
         </a>
       </section>
-      <section className="w-2/5 flex items-center justify-evenly md:flex hidden">
+      <section className="w-2/5 flex items-center justify-evenly md:flex hidden ">
         <a
           className="pt-5 pb-5 border-transparent	border-b-2 border-solid hover:border-white font-semibold hover:text-gray-300"
           href="/"
@@ -55,12 +55,12 @@ export default function HeaderBar() {
             setMenu(!menu);
           }}
         >
-          <img src={!menu ? Menu : Close} width={30} alt="icon"></img>
+          <img src={!menu ? Menu : Close} width={35} alt="icon"></img>
         </button>
         <section
           className={`${
             menu ? "flex" : "hidden"
-          } items-center justify-evenly flex-col absolute top-8 right-10 bg-gray-950 pt-2 pb-2 rounded`}
+          } items-center justify-evenly flex-col absolute top-10 right-8 bg-gray-950 pt-2 pb-2 rounded`}
         >
           <a
             className="font-semibold w-full h-full pt-2 pb-2 pl-8 pr-8"
@@ -71,7 +71,7 @@ export default function HeaderBar() {
           </a>
           <a
             className="font-semibold w-full h-full pt-2 pb-2 pl-8 pr-8"
-            href="/"
+            href="#about"
             target="_self"
           >
             About
@@ -85,7 +85,7 @@ export default function HeaderBar() {
           </a>
           <a
             className="font-semibold w-full  h-full pt-2 pb-2 pl-8 pr-8"
-            href="/"
+            href="#project"
             target="_self"
           >
             Project

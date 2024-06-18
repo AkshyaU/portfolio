@@ -125,19 +125,19 @@ export default function Contact() {
             <p className="mb-2 text-transparent">{"___"}</p>
           )}
           {emailStatus === 3 && (
-            <p className="mb-2">Your message has been not sent!</p>
+            <p className="mb-2 text-center">Your message has been not sent!</p>
           )}
           {emailStatus === 2 && (
-            <p className="mb-2">Your message has been sent successfully!</p>
+            <p className="mb-2 text-center">Your message has been sent successfully!</p>
           )}
           {emailStatus === 1 && (
-            <p className="mb-2">Please wait! We are sending your message.</p>
+            <p className="mb-2 text-center">Please wait! We are sending your message.</p>
           )}
         </form>
       </div>
       <hr className="w-full" />
       <div className="flex items-center justify-center mt-2 mb-2 w-full">
-        <div className="flex md:items-center justify-evenly mb-5 w-3/5 md:w-2/5 flex-col md:flex-row">
+        <div className="flex md:items-center justify-evenly mb-5 w-3/5 md:w-3/5 flex-col md:flex-row md:ml-5">
           <a
             href="mailto:praveeneswaran31@gmail.com"
             className="p-2 flex items-center"
@@ -145,10 +145,10 @@ export default function Contact() {
             <img
               className="p-1 bg-gray-700 rounded-full flex mr-2"
               src={gmail}
-              width={40}
+              width={35}
               alt="mail-logo"
             ></img>
-            <p>praveeneswaran31@gmail.com</p>
+            <p className="text-xs md:text-base">praveeneswaran31@gmail.com</p>
           </a>
           <a href="tel:+919360285114" className="p-2 flex items-center">
             <img
@@ -157,29 +157,29 @@ export default function Contact() {
               width={35}
               alt="tele-logo"
             ></img>
-            <p>+91 9360285114</p>
+            <p className="text-xs md:text-base">+919360285114</p>
           </a>
         </div>
-        <div className="flex items-center justify-end mb-5 w-2/5">
+        <div className="flex items-center justify-end mb-5 md:w-2/5 mt-10 md:mt-0 md:mr-10">
           <a
             href="https://github.com/PRAVEEN-hub2001"
             target="_blank"
             rel="noreferrer"
             className="p-1 bg-gray-700 rounded-full m-2"
           >
-            <img src={gitlogo} width={30} alt=""></img>
+            <img className="w-6 md:w-8" src={gitlogo} width={30} alt="git-logo"></img>
           </a>
           <a
             href="https://www.linkedin.com/in/praveeneswaran"
             className="p-1 bg-gray-700 rounded-full m-2"
           >
-            <img src={linkedin} width={30} alt="linkdein-logo"></img>
+            <img className="w-6 md:w-8" src={linkedin} width={30} alt="linkedin-logo"></img>
           </a>
           <a
             href="https://x.com/Praveeneswaran2"
             className="p-2 bg-gray-700 rounded-full m-2"
           >
-            <img src={twitter} width={20} alt="twitter-logo"></img>
+            <img className="w-5 md:w-6" src={twitter} width={20} alt="twitter-logo"></img>
           </a>
         </div>
       </div>
