@@ -1,6 +1,7 @@
 .App {
   color: white;
   font-family: "Courier New", monospace;
+  user-select: none;
 }
 .main-page {
   background-image: url(./Images/5172660.jpg);

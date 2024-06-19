@@ -6,11 +6,11 @@ export default function Project() {
   return (
     <section className="w-full h-full mb-10 pt-10 flex flex-col" id="project">
       <div className="flex items-center justify-evenly">
-        <hr className="w-3/5" />
+        <hr className="w-2/5" />
         <p className="text-base md:text-2xl font-semibold text-center pl-4 pr-4">
-          Projects
+          Latest Project
         </p>
-        <hr className="w-3/5" />
+        <hr className="w-2/5" />
       </div>
       <div className="flex items-center justify-evenly">
         <div className="md:w-3/5 w-4/5 text-sm p-5 md:ml-10 mt-5 mb-5 flex items-center bg-gray-950 rounded-3xl ease-in duration-300 hover:scale-95 projects">
@@ -74,8 +74,8 @@ export default function Project() {
               rel="noreferrer"
             >
               <svg
-                width="20px"
-                height="20px"
+                width="22px"
+                height="22px"
                 viewBox="0 0 24 24"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -143,8 +143,8 @@ export default function Project() {
               rel="noreferrer"
             >
               <svg
-                width="20px"
-                height="20px"
+                width="22px"
+                height="22px"
                 viewBox="0 0 24 24"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
