@@ -1,6 +1,7 @@
 import freeshipping from "../Images/Screenshot 2024-06-17 152412.png";
 import login_register from "../Images/Screenshot 2024-06-18 074711.png";
 import mobile_view from "../Images/Screenshot 2024-06-18 081338.png";
+import { Fade } from "react-awesome-reveal";
 
 export default function Project() {
   return (
@@ -12,6 +13,7 @@ export default function Project() {
         </p>
         <hr className="w-2/5" />
       </div>
+      <Fade direction="left" duration={1000}>
       <div className="flex items-center justify-evenly">
         <div className="md:w-3/5 w-4/5 text-sm p-5 md:ml-10 mt-5 mb-5 flex items-center bg-gray-950 rounded-3xl ease-in duration-300 hover:scale-95 projects">
           <div>
@@ -28,6 +30,8 @@ export default function Project() {
         </div>
         <div className="w-2/5 hidden md:block"></div>
       </div>
+      </Fade>
+      <Fade direction="right" duration={1000}>
       <div className="flex items-center justify-evenly">
         <div className="w-2/5 hidden md:block"></div>
         <div className="md:w-3/5 w-4/5 text-sm p-5 md:mr-10 flex items-center bg-gray-950 rounded-3xl ease-in duration-300 hover:scale-95 projects">
@@ -52,6 +56,8 @@ export default function Project() {
           </div>
         </div>
       </div>
+      </Fade>
+      <Fade direction="left" duration={1000}>
       <div className="flex items-center justify-evenly">
         <div className="md:w-3/5 w-4/5 text-sm p-5 md:ml-10 mt-5 mb-5 flex items-center bg-gray-950 rounded-3xl ease-in duration-300 hover:scale-95 projects">
           <div>
@@ -115,6 +121,8 @@ export default function Project() {
         </div>
         <div className="w-2/5 hidden md:block"></div>
       </div>
+      </Fade>
+      <Fade direction="right" duration={1000}>
       <div className="flex items-center justify-evenly">
         <div className="w-2/5 hidden md:block"></div>
         <div className="w-4/5 md:w-3/5 text-sm p-5 md:mr-10 flex items-center bg-gray-950 rounded-3xl ease-in duration-300 hover:scale-95 projects">
@@ -173,6 +181,7 @@ export default function Project() {
           </div>
         </div>
       </div>
+      </Fade>
     </section>
   );
 }
