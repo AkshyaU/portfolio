@@ -2,7 +2,6 @@ import { useState } from "react";
 import axios from "axios";
 import gitlogo from "../Images/pngegg.png";
 import linkedin from "../Images/linkedin-logo-png-2048.png";
-import twitter from "../Images/Twitter-X-White-Logo-PNG.png";
 import gmail from "../Images/Gmail_Logo_White_128px.png";
 import tele from "../Images/moblie-icon.png";
 
@@ -13,14 +12,14 @@ export default function Contact() {
   const [message, setMessage] = useState("");
   const [emailStatus, setEmailStatus] = useState(0);
   const maildata = {
-    service_id: "service_rv4bchd",
-    template_id: "template_gtksd35",
-    user_id: "B5va7TP-mF3dKpWLi",
+    service_id: "service_42xm06e",
+    template_id: "template_9v9sm66",
+    user_id: "LE-BCU3wZygAH18iH",
     template_params: {
       from_name: name,
       from_email: email,
       subject: subject,
-      to_name: "Praveen E",
+      to_name: "Akshya U",
       message: message,
     },
   };
@@ -128,27 +127,28 @@ export default function Contact() {
             <p className="mb-2 text-center">Your message has been not sent!</p>
           )}
           {emailStatus === 2 && (
-            <p className="mb-2 text-center">Your message has been sent successfully!</p>
+            <p className="mb-2 text-center">
+              Your message has been sent successfully!
+            </p>
           )}
           {emailStatus === 1 && (
-            <p className="mb-2 text-center">Please wait! We are sending your message.</p>
+            <p className="mb-2 text-center">
+              Please wait! We are sending your message.
+            </p>
           )}
         </form>
       </div>
       <hr className="w-full" />
       <div className="flex items-center justify-center mt-2 mb-2 w-full">
-        <div className="flex md:items-center justify-evenly mb-5 w-3/5 md:w-3/5 flex-col md:flex-row md:ml-5">
-          <a
-            href="mailto:praveeneswaran31@gmail.com"
-            className="p-2 flex items-center"
-          >
+        <div className="flex md:items-center justify-between mb-5 w-3/5 md:w-3/5 flex-col md:flex-row md:ml-5">
+          <a href="mailto:akshyau9@gmail.com" className="p-2 flex items-center">
             <img
               className="p-1 bg-gray-700 rounded-full flex mr-2"
               src={gmail}
               width={35}
               alt="mail-logo"
             ></img>
-            <p className="text-xs md:text-base">praveeneswaran31@gmail.com</p>
+            <p className="text-xs md:text-base">akshyau9@gmail.com</p>
           </a>
           <a href="tel:+919360285114" className="p-2 flex items-center">
             <img
@@ -157,29 +157,33 @@ export default function Contact() {
               width={35}
               alt="tele-logo"
             ></img>
-            <p className="text-xs md:text-base">+919360285114</p>
+            <p className="text-xs md:text-base">+918903799772</p>
           </a>
         </div>
         <div className="flex items-center justify-end mb-5 md:w-2/5 mt-10 md:mt-0 md:mr-10">
           <a
-            href="https://github.com/PRAVEEN-hub2001"
+            href="https://github.com/AkshyaU"
             target="_blank"
             rel="noreferrer"
             className="p-1 bg-gray-700 rounded-full m-2"
           >
-            <img className="w-6 md:w-8" src={gitlogo} width={30} alt="git-logo"></img>
+            <img
+              className="w-6 md:w-8"
+              src={gitlogo}
+              width={30}
+              alt="git-logo"
+            ></img>
           </a>
           <a
-            href="https://www.linkedin.com/in/praveeneswaran"
+            href="https://www.linkedin.com/in/akshya-ugrappa/"
             className="p-1 bg-gray-700 rounded-full m-2"
           >
-            <img className="w-6 md:w-8" src={linkedin} width={30} alt="linkedin-logo"></img>
-          </a>
-          <a
-            href="https://x.com/Praveeneswaran2"
-            className="p-2 bg-gray-700 rounded-full m-2"
-          >
-            <img className="w-5 md:w-6" src={twitter} width={20} alt="twitter-logo"></img>
+            <img
+              className="w-6 md:w-8"
+              src={linkedin}
+              width={30}
+              alt="linkedin-logo"
+            ></img>
           </a>
         </div>
       </div>

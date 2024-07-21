@@ -8,11 +8,17 @@ export default function HeaderBar() {
     <div className="top-menu md:min-h-16 min-h-14 w-full flex items-center justify-between sticky top-0 absolute z-10 bg-black">
       <section className="flex items-center justify-center w-24 md:w-60">
         <a className="flex items-center justify-center" href="/" target="_self">
-          <img className="w-6 md:w-10 h-2/4 mr-2" src={Devicon} alt="Icon"></img>
-          <h3 className="w-10 h-2/4 text-center text-sm md:text-base">Portfolio</h3>
+          <img
+            className="w-6 md:w-10 h-2/4 mr-2"
+            src={Devicon}
+            alt="Icon"
+          ></img>
+          <h3 className="w-10 h-2/4 text-center text-sm md:text-base">
+            Portfolio
+          </h3>
         </a>
       </section>
-      <section className="w-2/5 flex items-center justify-evenly md:flex hidden ">
+      <section className="w-2/5 flex items-center justify-evenly md:flex hidden pr-12 ">
         <a
           className="pt-5 pb-5 border-transparent	border-b-2 border-solid hover:border-white font-semibold hover:text-gray-300"
           href="/"

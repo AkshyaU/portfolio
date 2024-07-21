@@ -2,13 +2,11 @@
   color: white;
   font-family: "Courier New", monospace;
   user-select: none;
+  margin: 0 auto;
+  max-width: 1500px;
 }
-.main-page {
-  background-image: url(./Images/5172660.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 600px;
+#root {
+  background-color: #000;
 }
 @media only screen and (min-width: 600px) {
   .main-page {
